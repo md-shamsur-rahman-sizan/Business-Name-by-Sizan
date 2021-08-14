@@ -1,0 +1,1282 @@
+/*      ==============================
+            XXL DEVICE PART START
+        ==============================      */
+
+/* =============== ORIGINALLY CODED FOR XXL DEVICES =============== */
+        
+/*      ==============================
+             XXL DEVICE PART END
+        ==============================      */
+
+
+        
+/*      ==============================
+             XL DEVICE PART START
+        ==============================      */
+
+@media(min-width:1200px) and (max-width:1399px){
+
+
+    /* =============== ABOUT PART START =============== */
+
+    #about .about-text{
+        padding: 5%;
+    }
+
+    #about .about-text h2{
+        font-size: 24px;
+        padding-bottom: 3%;
+    }
+
+    #about .about-text p{
+        line-height: 20px;
+        font-size: 14px;
+        padding-top: 3%;
+        padding-right: 0px;
+        margin-bottom: 0 !important;
+    }
+
+    #about .about-text .about-button{
+        padding-top: 8%;
+    }
+
+    /* =============== ABOUT PART END =============== */
+
+
+}
+
+/*      ==============================
+              XL DEVICE PART END
+        ==============================      */
+
+
+
+/*      ==============================
+             LG DEVICE PART START
+        ==============================      */
+
+@media(min-width:992px) and (max-width:1199px){
+
+
+    /* =============== MENU PART START =============== */
+
+    #menu .navbar-brand{
+        font-size: 26px;
+    }
+
+    #menu .nav-link{
+        font-size: 14px;
+    }
+    
+    /* =============== MENU PART END =============== */
+    
+    
+    /* =============== BANNER PART START =============== */
+    
+    #banner .banner-text h1{
+        font-size: 42px;
+        padding-bottom: 5px;
+    }
+
+    /* =============== BANNER PART END =============== */
+
+
+    /* =============== ABOUT PART START =============== */
+
+    #about .about-text{
+        padding: 5%;
+    }
+
+    #about .about-text h2{
+        font-size: 24px;
+        padding-bottom: 3%;
+    }
+
+    #about .about-text p{
+        line-height: 20px;
+        font-size: 13px;
+        padding-top: 3%;
+        padding-right: 0px;
+        margin-bottom: 0 !important;
+    }
+
+    #about .about-text .about-button{
+        padding-top: 8%;
+    }
+
+    /* =============== ABOUT PART END =============== */
+
+
+    /* =============== PORTFOLIO PART START =============== */
+
+    #portfolio .portfolio-head .portfolio-head-icon::before{
+        top: 46%;
+        right: 37%;
+        width: 10%;
+    }
+
+    #portfolio .portfolio-head .portfolio-head-icon::after{
+        top: 46%;
+        left: 37%;
+        width: 10%;
+    }
+
+    /* =============== PORTFOLIO PART END =============== */
+
+
+    /* =============== TESTIMONIAL PART START =============== */
+
+    #testimonial .testimonial-head .testimonial-head-icon::before{
+        top: 46%;
+        right: 37%;
+        width: 10%;
+    }
+
+    #testimonial .testimonial-head .testimonial-head-icon::after{
+        top: 46%;
+        left: 37%;
+        width: 10%;
+    }
+
+    #testimonial .testimonial-body{
+        padding: 40px 0 40px 30px;
+    }
+
+    /* =============== TESTIMONIAL PART END =============== */
+
+
+    /* =============== FOOTER PART START =============== */
+
+    #footer .letter-email{
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+
+    #footer .letter-submit{
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+
+    /* =============== FOOTER PART END =============== */
+
+
+}
+
+/*      ==============================
+              LG DEVICE PART END
+        ==============================      */
+
+
+
+/*      ==============================
+             MD DEVICE PART START
+        ==============================      */
+
+@media(min-width:768px) and (max-width:991px){
+
+
+    /* =============== BACK TO TOP PART START =============== */
+
+    .back-to-top{
+        right: 20px;
+        bottom: 50px;
+        opacity: 0.25;
+    }
+
+    .back-to-top:hover{
+        opacity: 1;
+    }
+
+    /* =============== BACK TO TOP PART END =============== */
+    
+
+    /* =============== MENU PART START =============== */
+
+    #theme{
+        color: var(--secondary-color);
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+
+    .navbar-brand{
+        font-size: 26px !important;
+    }
+
+    .navbar-toggler{
+        border: none !important;
+        color: rgb(255, 255, 255) !important;
+    }
+
+    .menu-background .navbar-toggler{
+        color: var(--secondary-color) !important;
+    }
+
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+
+    .navbar-nav{
+        height: 100vh;
+        padding: 15px;
+        background-color: var(--primary-color);
+    }
+
+    .nav-item{
+        box-shadow: 0 1px 1px -1px rgba(0, 0, 0, 0.5);
+    }
+
+    .nav-item:last-child{
+        box-shadow: none;
+    }
+
+    .nav-link{
+        text-align: center;
+        font-size: 14px !important;
+        color: var(--secondary-color) !important;
+    }
+
+    /* =============== MENU PART END =============== */
+
+
+    /* =============== BANNER PART START =============== */
+
+        #banner .banner-text h1{
+            font-size: 32px;
+            padding-bottom: 5px;
+        }
+    
+        #banner .banner-text h3{
+            font-size: 22px;
+        }
+    
+        .banner-image{
+            padding: 240px 0 !important;
+        }
+    
+        #banner .banner-text .banner-button{
+            padding: 50px 0 0 0;
+        }
+    
+        #banner .banner-text .banner-button a{
+            padding: 8px 16px;
+            font-size: 11px;
+        }
+
+        #banner .slick-dots{
+            padding-left: 0 !important;
+            margin-bottom: 0 !important;
+            left: 50%;
+            bottom: 10%;
+        }
+
+        #banner .previous-banner i{
+            font-size: 18px;
+        }
+
+        #banner .previous-banner i::after {
+            height: 36px;
+            width: 36px;
+        }
+
+        #banner .next-banner i{
+            font-size: 18px;
+        }
+
+        #banner .next-banner i::after{
+            height: 36px;
+            width: 36px;
+        }
+
+        #banner .banner-text .banner-button a{
+            font-size: 14px;
+        }
+
+        #banner .slick-dots li{
+            height: 18px;
+            width: 18px;
+        }
+
+        #banner .slick-dots li button {
+            height: 6px;
+            width: 6px;
+            margin: 5px;
+        }
+
+        /* =============== BANNER PART END =============== */
+
+
+        /* =============== SERVICE PART START =============== */
+
+        #services .service-head{
+            padding: 60px 0 25px 0;
+        }
+
+        #services .service-head h2{
+            font-size: 24px;
+        }
+
+        #services .service-head p{
+            font-size: 16px;
+        }
+
+        #services .service-item .service-text h4{
+            font-size: 18px;
+            padding-bottom: 15px;
+        }
+
+        #services .service-item .service-text p{
+            font-size: 13px;
+        }
+
+        /* =============== SERVICE PART END =============== */
+
+
+        /* =============== ABOUT PART START =============== */
+
+        #about .about-text{
+            padding: 60px;
+        }
+
+        #about .about-text h2{
+            font-size: 24px;
+            text-align: center;
+            padding-bottom: 15px;
+        }
+
+        #about .about-text p{
+            font-size: 13px;
+            padding-top: 5px;
+            padding-right: 0px;
+            text-align: justify;
+        }
+
+        #about .about-text .about-button{
+            padding-top: 40px;
+        }
+
+        #about .about-text .about-button a{
+            display: block;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        /* =============== ABOUT PART END =============== */
+
+
+        /* =============== PORTFOLIO PART START =============== */
+
+        #portfolio .portfolio-head{
+            padding: 60px 0 25px 0;
+        }
+
+        #portfolio .portfolio-head h2{
+            font-size: 25px;
+        }
+
+        #portfolio .portfolio-head .portfolio-head-icon i{
+            font-size: 22px;
+        }
+
+        #portfolio .portfolio-head .portfolio-head-icon::before{
+            top: 46%;
+            right: 32%;
+            width: 15%;
+        }
+
+        #portfolio .portfolio-head .portfolio-head-icon::after{
+            left: 32%;
+            top: 46%;
+            width: 15%;
+        }
+
+        #portfolio .portfolio-head p{
+            font-size: 14px;
+            padding: 0;
+        }
+
+        #portfolio .portfolio-button li{
+            padding: 5px;
+        }
+
+        #portfolio .portfolio-button li a{
+            padding: 5px 16px;
+            font-size: 14px;
+        }
+
+        #portfolio .portfolio-image .portfolio-overlay .portfolio-overlay-icon i {
+            height: 32px;
+            width: 32px;
+            font-size: 14px;
+        }
+
+        i[class^="flaticon-"]::before, i[class*=" flaticon-"]::before{
+            line-height: 28px;
+        }
+
+        #portfolio .portfolio-image .portfolio-overlay h5{
+            font-size: 14px;
+        }
+
+        #portfolio .portfolio-image .portfolio-overlay h6{
+            font-size: 12px;
+        }
+
+        /* =============== PORTFOLIO PART END =============== */
+
+
+        /* =============== TESTIMONIAL PART START =============== */
+
+        #testimonial .testimonial-head{
+            padding: 10px 0 0 0;
+        }
+    
+        #testimonial .testimonial-head h2{
+            font-size: 25px;
+        }
+    
+        #testimonial .testimonial-head .testimonial-head-icon i{
+            font-size: 22px;
+        }
+    
+        #testimonial .testimonial-head .testimonial-head-icon::after{
+            left: 32%;
+            width: 15%;
+        }
+    
+        #testimonial .testimonial-head .testimonial-head-icon::before{
+            right: 32%;
+            width: 15%;
+        }
+    
+        #testimonial .testimonial-body{
+            padding: 40px 0 40px 30px;
+        }
+    
+        #testimonial .testimonial-body p{
+            text-align: justify;
+            font-size: 13px;
+        }
+
+        /* =============== TESTIMONIAL PART END =============== */
+
+
+        /* =============== FOOTER PART START =============== */
+
+        #footer .footer-body{
+            text-align: justify;
+        }
+
+        #footer .footer-title{
+            padding: 10px 0;
+        }
+
+        #footer .footer-description{
+            font-size: 13px;
+            padding: 0;
+        }
+
+        #footer h3{
+            font-size: 20px;
+            padding: 20px 0 10px 0;
+        }
+
+        #footer .contact-details{
+            font-size: 13px;
+            padding: 0;
+        }
+
+        #footer .tweets-head .row{
+            --bs-gutter-x: 0;
+        }
+
+        #footer .twitter-post .row{
+            --bs-gutter-x: 0;
+        }
+
+        #footer .twitter-post .tweet{
+            font-size: 13px;
+            padding-right: 0;
+        }
+
+        #footer .twitter-post .posted-on{
+            display: block;
+            font-size: 12px;
+            text-align: end;
+        }
+
+        #footer .letter-email{
+            font-size: 12px;
+        }
+
+        #footer .letter-submit{
+            font-size: 12px;
+        }
+
+        #footer .footer-foot{
+            position: relative;
+        }
+
+        #footer .footer-foot .foot-content:nth-child(2){
+            text-align: start;
+        }
+
+        #footer .footer-foot .foot-content:last-child{
+            text-align: end;
+            
+        }
+
+        /* =============== FOOTER PART END =============== */
+
+
+}
+
+/*      ==============================
+              MD DEVICE PART END
+        ==============================      */
+
+
+
+/*      ==============================
+             SM DEVICE PART START
+        ==============================      */
+
+@media(min-width:576px) and (max-width:767px){
+
+
+    /* =============== MENU PART START =============== */
+
+    #theme{
+        color: var(--secondary-color);
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+    
+    .navbar-brand{
+        font-size: 24px !important;
+    }
+
+    .navbar-toggler{
+        border: none !important;
+        color: rgb(255, 255, 255) !important;
+    }
+
+    .menu-background .navbar-toggler{
+        color: var(--secondary-color) !important;
+    }
+
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+
+    .navbar-nav{
+        height: 100vh;
+        padding: 15px;
+        background-color: var(--primary-color);
+    }
+
+    .nav-item{
+        box-shadow: 0 1px 1px -1px rgba(0, 0, 0, 0.5);
+    }
+
+    .nav-item:last-child{
+        box-shadow: none;
+    }
+
+    .nav-link{
+        text-align: center;
+        font-size: 14px !important;
+        color: var(--secondary-color) !important;
+    }
+
+    /* =============== MENU PART END =============== */
+
+
+    /* =============== BANNER PART START =============== */
+
+        #banner .banner-text h1{
+            font-size: 24px;
+            padding-bottom: 5px;
+        }
+    
+        #banner .banner-text h3{
+            font-size: 18px;
+        }
+    
+        .banner-image{
+            padding: 200px 0 !important;
+        }
+    
+        #banner .banner-text .banner-button{
+            padding: 50px 0 0 0;
+        }
+    
+        #banner .banner-text .banner-button a{
+            padding: 8px 16px;
+            font-size: 11px;
+        }
+
+        #banner .slick-dots{
+            padding-left: 0 !important;
+            margin-bottom: 0 !important;
+            left: 50%;
+            bottom: 10%;
+        }
+
+        #banner .previous-banner i{
+            font-size: 15px;
+        }
+
+        #banner .previous-banner i::after{
+            top: 50%;
+            left: 55%;
+            height: 30px;
+            width: 30px;
+        }
+
+        #banner .next-banner i{
+            font-size: 15px;
+        }
+
+        #banner .next-banner i::after{
+            top: 50%;
+            left: 55%;
+            height: 30px;
+            width: 30px;
+        }
+
+        #banner .banner-text .banner-button a{
+            font-size: 14px;
+        }
+
+        #banner .slick-dots li{
+            height: 16px;
+            width: 16px;
+        }
+
+        #banner .slick-dots li button{
+            height: 4px;
+            width: 4px;
+            margin: 5px;
+        }
+
+        /* =============== BANNER PART END =============== */
+
+
+        /* =============== SERVICE PART START =============== */
+
+        #services .service-head{
+            padding: 60px 0 25px 0;
+        }
+
+        #services .service-head h2{
+            font-size: 24px;
+        }
+
+        #services .service-head p{
+            font-size: 14px;
+        }
+
+        #services .service-item .service-text h4{
+            font-size: 18px;
+            padding-bottom: 10px;
+        }
+
+        #services .service-item .service-text p{
+            font-size: 13px;
+        }
+
+        /* =============== SERVICE PART END =============== */
+
+
+        /* =============== ABOUT PART START =============== */
+
+        #about .about-text{
+            padding: 60px;
+        }
+
+        #about .about-text h2{
+            font-size: 24px;
+            text-align: center;
+            padding-bottom: 15px;
+        }
+
+        #about .about-text p{
+            font-size: 13px;
+            padding-top: 5px;
+            padding-right: 0px;
+            text-align: justify;
+        }
+
+        #about .about-text .about-button{
+            padding-top: 30px;
+        }
+
+        #about .about-text .about-button a{
+            display: block;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        /* =============== ABOUT PART END =============== */
+
+
+        /* =============== PORTFOLIO PART START =============== */
+
+        #portfolio .portfolio-head{
+            padding: 60px 0 25px 0;
+        }
+
+        #portfolio .portfolio-head h2{
+            font-size: 25px;
+        }
+
+        #portfolio .portfolio-head .portfolio-head-icon i{
+            font-size: 22px;
+        }
+
+        #portfolio .portfolio-head .portfolio-head-icon::before{
+            right: 30%;
+            width: 15%;
+        }
+
+        #portfolio .portfolio-head .portfolio-head-icon::after{
+            left: 30%;
+            width: 15%;
+        }
+
+        #portfolio .portfolio-head p{
+            font-size: 14px;
+            padding: 0;
+        }
+
+        #portfolio .portfolio-button li{
+            padding: 5px;
+        }
+
+        #portfolio .portfolio-button li a{
+            padding: 5px 16px;
+            font-size: 14px;
+        }
+
+        #portfolio .portfolio-image .portfolio-overlay .portfolio-overlay-icon i{
+            height: 30px;
+            width: 30px;
+        }
+
+        i[class^="flaticon-"]::before, i[class*=" flaticon-"]::before{
+            line-height: 28px;
+        }
+
+        #portfolio .portfolio-image .portfolio-overlay h5{
+            font-size: 16px;
+        }
+
+        #portfolio .portfolio-image .portfolio-overlay h6{
+            font-size: 14px;
+        }
+
+        /* =============== PORTFOLIO PART END =============== */
+
+
+        /* =============== TESTIMONIAL PART START =============== */
+
+        #testimonial .testimonial-head{
+            padding: 10px 0 0 0;
+        }
+    
+        #testimonial .testimonial-head h2{
+            font-size: 25px;
+        }
+    
+        #testimonial .testimonial-head .testimonial-head-icon i{
+            font-size: 22px;
+        }
+    
+        #testimonial .testimonial-head .testimonial-head-icon::after{
+            left: 30%;
+            width: 15%;
+        }
+    
+        #testimonial .testimonial-head .testimonial-head-icon::before{
+            right: 30%;
+            width: 15%;
+        }
+    
+        #testimonial .testimonial-body{
+            padding: 40px 0 40px 30px;
+        }
+    
+        #testimonial .testimonial-body p{
+            text-align: justify;
+            font-size: 13px;
+        }
+
+        /* =============== TESTIMONIAL PART END =============== */
+
+
+        /* =============== FOOTER PART START =============== */
+
+        #footer .footer-body{
+            text-align: justify;
+        }
+
+        #footer .footer-title{
+            padding: 10px 0;
+        }
+
+        #footer .footer-description{
+            font-size: 13px;
+            padding: 0;
+        }
+
+        #footer h3{
+            font-size: 20px;
+            padding-bottom: 10px;
+        }
+
+        #footer .contact-details{
+            font-size: 13px;
+            padding: 0;
+        }
+
+        #footer .tweets-head .row{
+            --bs-gutter-x: 0;
+        }
+
+        #footer .twitter-post .row{
+            --bs-gutter-x: 0;
+        }
+
+        #footer .twitter-post .tweet{
+            font-size: 13px;
+            padding-right: 0;
+        }
+
+        #footer .twitter-post .posted-on{
+            display: block;
+            font-size: 12px;
+            text-align: end;
+        }
+
+        #footer .letter-email{
+            font-size: 12px;
+        }
+
+        #footer .letter-submit{
+            font-size: 12px;
+        }
+
+        #footer .footer-foot .foot-content:nth-child(2){
+            text-align: end;
+        }
+
+        #footer .footer-foot .foot-content:last-child{
+            padding-top: 15px;
+            text-align: center;
+        }
+
+        /* =============== FOOTER PART END =============== */
+
+
+}
+
+/*      ==============================
+              SM DEVICE PART END
+        ==============================      */
+
+
+
+/*      ==============================
+             XS DEVICE PART START
+        ==============================      */
+
+@media(max-width:575px){
+
+    
+    /* =============== PRELOADER PART START =============== */
+
+    .preloader span{
+        height: 50px;
+        width: 8%;
+    }
+
+    .preloader span:first-child{
+        padding-left: 5%;
+    }
+
+    @keyframes preloader{
+        0%{
+            font-size: 10px;
+        }
+        50%{
+            font-size: 15px;
+        }
+        100%{
+            font-size: 10px;
+        }
+    }
+
+    /* =============== PRELOADER PART END =============== */
+
+    
+    /* =============== BACK TO TOP PART START =============== */
+
+    .back-to-top{
+        right: 20px;
+        bottom: 50px;
+        opacity: 0.25;
+    }
+
+    .back-to-top:hover{
+        opacity: 1;
+    }
+
+    /* =============== BACK TO TOP PART END =============== */
+
+
+    /* =============== MENU PART START =============== */
+
+    #theme{
+        color: var(--secondary-color);
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+
+    .navbar-brand{
+        font-size: 24px !important;
+    }
+
+    .navbar-toggler{
+        border: none !important;
+        color: rgb(255, 255, 255) !important;
+    }
+
+    .menu-background .navbar-toggler{
+        color: var(--secondary-color) !important;
+    }
+
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+
+    .navbar-nav{
+        height: 100vh;
+        padding: 15px;
+        background-color: var(--primary-color);
+    }
+
+    .nav-item{
+        box-shadow: 0 1px 1px -1px rgba(0, 0, 0, 0.5);
+    }
+
+    .nav-item:last-child{
+        box-shadow: none;
+    }
+
+    .nav-link{
+        text-align: center;
+        font-size: 14px !important;
+        color: var(--secondary-color) !important;
+    }
+
+    /* =============== MENU PART END =============== */
+
+
+    /* =============== BANNER PART START =============== */
+
+    .next-banner{
+        display: none !important;
+    }
+
+    .previous-banner{
+        display: none !important;
+    }
+
+    #banner .slick-dots{
+        display: none !important;
+    }
+
+    #banner .banner-text h1{
+        font-size: 19px;
+    }
+
+    #banner .banner-text h3{
+        font-size: 16px;
+    }
+
+    .banner-image{
+        padding: 160px 0 !important;
+    }
+
+    #banner .banner-text {
+        top: 65%;
+    }
+
+    #banner .banner-text .banner-button {
+        padding: 50px 0 0 0;
+    }
+
+    #banner .banner-text .banner-button a {
+        padding: 8px 16px;
+        font-size: 11px;
+    }
+
+    /* =============== BANNER PART END =============== */
+
+
+    /* =============== SERVICE PART START =============== */
+
+    #services .service-head{
+        padding: 50px 0 20px 0;
+    }
+
+    #services .service-head h2{
+        font-size: 22px;
+    }
+
+    #services .service-head P{
+        font-size: 14px;
+        padding: 5px;
+    }
+    
+    #services .service-item{
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    #services .service-item .service-icon{
+        padding-bottom: 5px;
+    }
+
+    #services .service-item .service-text h4{
+        font-size: 18px;
+    }
+
+    #services .service-item .service-text p{
+        font-size: 12px;
+        padding: 0 5px;
+    }
+
+    /* =============== SERVICE PART END =============== */
+
+
+    /* =============== ABOUT PART START =============== */
+
+    #about .about-text{
+        padding: 40px 25px;
+        text-align: center;
+    }
+
+    #about .about-text h2{
+        font-size: 22px;
+        padding-bottom: 10px;
+    }
+
+    #about .about-text p{
+        font-size: 13px;
+        padding-top: 5px;
+        text-align: justify;
+    }
+
+    #about .about-text .about-button{
+        padding-top: 10px;
+    }
+
+    #about .about-text .about-button a{
+        display: block;
+        font-size: 14px;
+    }
+
+    /* =============== ABOUT PART END =============== */
+
+
+    /* =============== PORTFOLIO PART START =============== */
+
+    #portfolio .portfolio-head{
+        padding: 50px 0 40px 0;
+        text-align: center;
+    }
+
+    #portfolio .portfolio-head h2{
+        font-size: 22px;
+    }
+
+    #portfolio .portfolio-head .portfolio-head-icon i{
+        font-size: 20px;
+    }
+
+    #portfolio .portfolio-head .portfolio-head-icon::after{
+        left: 20%;
+        width: 24%;
+    }
+
+    #portfolio .portfolio-head .portfolio-head-icon::before{
+        right: 20%;
+        width: 24%;
+    }
+
+    #portfolio .portfolio-head p{
+        font-size: 14px;
+        padding: 0;
+    }
+
+    #portfolio .portfolio-button li{
+        padding: 2px;
+    }
+
+    #portfolio .portfolio-button li a {
+        font-size: 14px;
+    }
+
+    /* =============== PORTFOLIO PART END =============== */
+
+
+    /* =============== TESTIMONIAL PART START =============== */
+
+    #testimonial .testimonial-head{
+        padding: 0;
+    }
+
+    #testimonial .testimonial-head h2{
+        font-size: 22px;
+    }
+
+    #testimonial .testimonial-head .testimonial-head-icon i{
+        font-size: 20px;
+    }
+
+    #testimonial .testimonial-head .testimonial-head-icon::after{
+        left: 20%;
+        width: 24%;
+    }
+
+    #testimonial .testimonial-head .testimonial-head-icon::before{
+        right: 20%;
+        width: 24%;
+    }
+
+    #testimonial .testimonial-body{
+        padding: 40px 0 40px 20px;
+    }
+
+    #testimonial .testimonial-body p{
+        text-align: justify;
+        font-size: 12px;
+    }
+
+    /* =============== TESTIMONIAL PART END =============== */
+
+
+    /* =============== FOOTER PART START =============== */
+
+    #footer .footer-body{
+        text-align: justify;
+    }
+
+    #footer .footer-title{
+        font-size: 20px;
+        padding: 0 0 15px 0;
+        text-align: center;
+    }
+
+    #footer .footer-description{
+        font-size: 12px;
+        padding: 0;
+    }
+
+    #footer h3{
+        font-size: 20px;
+        padding: 25px 0 10px 0;
+        text-align: center;
+    }
+
+    #footer .contact-details{
+        font-size: 12px;
+        padding: 0;
+    }
+
+    #footer .contact-link{
+        font-size: 13px;
+    }
+
+    #footer .twitter-post .twitter-icon{
+        text-align: center;
+    }
+
+    #footer .twitter-post .tweet{
+        font-size: 12px;
+        padding-right: 0;
+    }
+
+    #footer .twitter-post .posted-on{
+        display: block;
+        font-size: 11px;
+        text-align: end;
+    }
+
+    #footer .letter-details{
+        font-size: 12px;
+    }
+
+    #footer form{
+        text-align: center;
+    }
+
+    #footer .letter-email{
+        font-size: 12px;
+    }
+
+    #footer .letter-submit{
+        font-size: 12px;
+    }
+
+    #footer .footer-foot h6{
+        font-size: 12px;
+    }
+
+    #footer .footer-foot{
+        position: relative;
+    }
+
+    #footer .footer-foot .foot-content:first-child{
+        text-align: center;
+    }
+
+    #footer .footer-foot .foot-content:nth-child(2){
+        text-align: start;
+        position: absolute;
+        bottom: 15px;
+        left: 20px;
+        width: 60%;
+    }
+
+    #footer .footer-foot .footer-icons a {
+        height: 30px;
+        width: 30px;
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    /* =============== FOOTER PART END =============== */
+
+
+}
+
+/*      ==============================
+              XS DEVICE PART END
+        ==============================      */
