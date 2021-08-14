@@ -295,7 +295,7 @@ h1,h2,h3,h4,h5,h6{
 
 #menu .nav-link.active{
     background-color: rgb(255, 193, 85);
-    color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0) !important;
 }
 
 /*      ==============================
