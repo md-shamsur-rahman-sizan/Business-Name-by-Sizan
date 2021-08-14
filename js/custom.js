@@ -106,6 +106,30 @@ $(function(){
     });
 
     // =============== SCROLL ANIMATION PART END =============== //
+
+
+    // =============== DARK THEME PART START =============== //
+
+    var theme = document.getElementById("theme");
+
+    theme.onclick = function(){
+        document.body.classList.toggle("dark-theme");
+
+        if(document.body.classList.contains("dark-theme")){
+            $("#dark-mode").delay(100).fadeIn(150);
+        }
+        else{
+            $("#dark-mode").delay(50).fadeOut(100);
+        }
+        if(document.body.classList.contains("dark-theme")){
+            $("#light-mode").delay(50).fadeOut(100);
+        }
+        else{
+            $("#light-mode").delay(100).fadeIn(150);
+        }
+    }
+
+    // =============== DARK THEME PART END =============== //
     
 
 // =============== MAIN PART END =============== //

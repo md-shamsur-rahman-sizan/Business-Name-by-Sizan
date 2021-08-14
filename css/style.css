@@ -21,6 +21,56 @@ h1,h2,h3,h4,h5,h6{
     padding: 0;
 }
 
+:root{
+    --primary-color: rgb(250, 250, 250);
+    --secondary-color: rgb(57, 75, 80);
+    --third-color: rgb(255, 193, 85);
+    --fourth-color: rgb(235, 208, 235);
+    --fifth-color: rgb(98, 67, 98);
+}
+
+.dark-theme{
+    --primary-color: rgb(50, 50, 75);
+    --secondary-color: rgb(250, 250, 250);
+    --third-color: rgb(39, 58, 67);
+    --fourth-color: rgb(56, 32, 62);
+    --fifth-color: rgb(235, 208, 235);
+}
+
+#theme{
+    color: rgb(250, 250, 250);
+    cursor: pointer;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 0;
+    left: -60px;
+}
+
+#theme i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.menu-background #theme i{
+    color: var(--secondary-color);
+}
+
+#light-mode{
+    display: block;
+}
+
+#dark-mode{
+    display: none;
+}
+
 
 
 /* =============== PRELOADER PART START =============== */
@@ -29,7 +79,7 @@ h1,h2,h3,h4,h5,h6{
     position: fixed;
     height: 100%;
     width: 100%;
-    background-color: rgb(98, 67, 98);    
+    background-color: rgb(98, 67, 98);
     z-index: 5000000;
     display: flex;
     justify-content: center;
@@ -196,14 +246,14 @@ h1,h2,h3,h4,h5,h6{
     position: fixed;
     top: 0;
     left: 0;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--primary-color);
     box-shadow: 0 0 10px 1px rgb(98, 67, 98);
     animation: sticky-menu 0.5s;
     -webkit-animation: sticky-menu 0.5s;
 }
 
 .menu-background ul li a{
-    color: rgb(0, 0, 0) !important;
+    color: var(--secondary-color) !important;
 }
 
 @keyframes sticky-menu{
@@ -219,6 +269,10 @@ h1,h2,h3,h4,h5,h6{
     font-size: 30px;
     font-family: 'Pacifico', cursive;
     color: rgb(255, 193, 85);
+}
+
+#menu .navbar-nav{
+    position: relative;
 }
 
 #menu .nav-link{
@@ -257,6 +311,7 @@ h1,h2,h3,h4,h5,h6{
 #banner{
     width: 100%;
     position: relative;
+    background-color: var(--primary-color);
 }
 
 #banner .banner-image{
@@ -491,6 +546,7 @@ h1,h2,h3,h4,h5,h6{
 
 #services{
     width: 100%;
+    background-color: var(--primary-color);
 }
 
 #services .service-head{
@@ -508,7 +564,7 @@ h1,h2,h3,h4,h5,h6{
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    color: rgb(57, 75, 80);
+    color: var(--secondary-color);
     margin-bottom: 0 !important;
 }
 
@@ -538,7 +594,7 @@ h1,h2,h3,h4,h5,h6{
     font-size: 20px;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
-    color: rgb(57, 75, 80);
+    color: var(--secondary-color);
     padding-bottom: 15px;
 }
 
@@ -546,7 +602,7 @@ h1,h2,h3,h4,h5,h6{
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    color: rgb(57, 75, 80);
+    color: var(--secondary-color);
     margin-bottom: 0 !important;
 }
 
@@ -560,6 +616,10 @@ h1,h2,h3,h4,h5,h6{
                ABOUT PART START
         ==============================      */
 
+#about{
+    background-color: var(--primary-color);    
+}
+
 #about .about-image img{
     width: 100%;
     height: 100%;
@@ -570,8 +630,12 @@ h1,h2,h3,h4,h5,h6{
 }
 
 #about .about-text{
-    background-color: rgb(255, 193, 85);
+    background-color: var(--third-color);
     padding: 75px;
+}
+
+.about-background{
+    background-color: rgb(39, 58, 67);
 }
 
 #about .about-text h2{
@@ -621,7 +685,7 @@ h1,h2,h3,h4,h5,h6{
 
 #about .about-text .about-button a:hover{
     background-color: rgb(112, 157, 202);
-    border: 1px solid rgb(57, 75, 80);
+    border: 1px solid var(--secondary-color);
     color: rgb(255, 193, 85);
 }
 
@@ -634,6 +698,10 @@ h1,h2,h3,h4,h5,h6{
 /*      ==============================
              PORTFOLIO PART START
         ==============================      */
+
+#portfolio{
+    background-color: var(--primary-color);
+}
 
 #portfolio .portfolio-head{
     padding: 75px 0 40px 0;
@@ -652,7 +720,7 @@ h1,h2,h3,h4,h5,h6{
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    color: rgb(57, 75, 80);
+    color: var(--secondary-color);
     padding: 0 200px;
     margin-bottom: 0 !important;
 }
@@ -713,7 +781,7 @@ i[class^="flaticon-"]::before, i[class*=" flaticon-"]::before {
 #portfolio .portfolio-button li a{
     display: inline-block;
     padding: 5px 20px;
-    color: rgb(57, 75, 80);
+    color: var(--secondary-color);
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -824,6 +892,7 @@ i[class^="flaticon-"]::before, i[class*=" flaticon-"]::before {
 
 #testimonial{
     padding: 50px 0;
+    background-color: var(--primary-color);
 }
 
 #testimonial .testimonial-head{
@@ -883,7 +952,8 @@ i[class^="flaticon-"]::before, i[class*=" flaticon-"]::before {
 }
 
 #testimonial .testimonial-body p{
-    background-color: rgb(235, 208, 235);
+    background-color: var(--fourth-color);
+    color:var(--secondary-color);
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -901,19 +971,19 @@ i[class^="flaticon-"]::before, i[class*=" flaticon-"]::before {
     height: 0;
     border-style: solid;
     border-width: 20px 25px 0 0;
-    border-color: rgb(235, 208, 235) transparent transparent transparent;
+    border-color: var(--fourth-color) transparent transparent transparent;
 }
 
 #testimonial .testimonial-body .author a i{
     font-size: 30px;
-    color: rgb(98, 67, 98);
+    color: var(--fifth-color);
 }
 
 #testimonial .testimonial-body .author a span{
     font-size: 13px;
     font-family: 'PT Sans', sans-serif;
     font-weight: 400;
-    color: rgb(98, 67, 98);
+    color: var(--fifth-color);
 }
 
 #testimonial .testimonial-body .author a .span-bold{
